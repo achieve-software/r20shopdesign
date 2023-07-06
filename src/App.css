@@ -131,6 +131,7 @@ body {
   color: #fff;
 }/* FOOTER ////////////////////////////////////////////////////////////// */footer {
   padding: 40px 0 100px 0;
+  background-color: black;
 }footer .nav-link {
   color: rgba(255, 255, 255, 0.75);
   padding-left: 0;
