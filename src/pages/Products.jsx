@@ -1,8 +1,8 @@
 import React from "react";
-import { Link} from "react-router-dom";
+import { Link, useNavigate} from "react-router-dom";
 import PRODUCTS from "./../data";
 const Products = () => {
-  
+  const navigate=useNavigate();
   return (
     <main>
       <div className="pg-header">
@@ -31,8 +31,9 @@ const Products = () => {
             return (
               <div className="col-lg-4" key={product.id}>
                 <div className="card">
-                  <div className="img-wrap" 
-                  >
+                <div className="img-wrap"  type="button"
+                  onClick={()=> navigate(`/`)}>
+                  
                     <img src={product.image} alt="" />
                   </div>
                   <div className="card-body">
