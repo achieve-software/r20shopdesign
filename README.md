@@ -1,3 +1,36 @@
+
+# React Shop Design
+## Description
+Project aims to create Shop Design Project using React Router 
+## Project Skeleton
+```
+|
+|----readme.md                 
+|----public
+        |----index.html      
+|----src
+        |----images
+        |----components
+              |----Footer.jsx
+              |----Header.jsx
+        |----pages
+              |----About.jsx
+              |----Error.jsx
+              |----Home.jsx
+              |----Products.jsx
+              |----SingleProduct.jsx
+        |----App.css
+        |----App.js
+        |----index.js
+        |----data.js
+
+```
+## Project-gif
+![JavaScript-project](https://raw.githubusercontent.com/achieve-software/achieve-software/main/img/shopdesign-min.gif)
+## Project-link
+https://sage-bavarois-488d49.netlify.app/
+### At the end of the project, following topics are to be covered;
+-React
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
