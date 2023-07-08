@@ -19,10 +19,10 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/products" element={<Products />} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/products" element={<Products/>} />
           <Route path="/products/:productId" element={<SingleProduct/>} />
-          <Route path="*" element={<Error />} />
+          <Route path="*" element={<Error/>} />
         </Routes>
         <Footer />
       </BrowserRouter>
